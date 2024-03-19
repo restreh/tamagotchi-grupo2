@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins','Sans-serif';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body h1{
+    font-size: 3rem;
+    color: violet;
+}
+
+body img{
+    width: 200px;
+    max-width: 200px;
+}
+
+.tamagotchi-container {
+    text-align: center;
+    border: 8px solid purple;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.tamagotchi {
+    border: 3px solid purple;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.bar-container {
+    position: relative;
+}
+
+.bar {
+    height: 20px;
+    margin: 5px 0;
+}
+
+.label {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.actions button {
+    margin: 5px;
+    
+}
+
+button{
+    color: purple;
+    font-weight: 700;
+    background: none;
+    border: 2px solid purple;
+    border-radius: 20px;
+}
+
+button:hover{
+    color: white;
+    background: violet;
+    border: none;
+    border-radius: 20px;
+}
+
+/*Colores pastel para las barras*/
+/* Define tus colores personalizados aquí */
+.custom-green {
+    background-color: #92FD70;
+}
+
+.custom-yellow {
+    background-color: #FAFF80;
+}
+
+.custom-red {
+    background-color: #FF6961;
+}

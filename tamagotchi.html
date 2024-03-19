@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tamagotchi</title>
+    <link rel="stylesheet" href="tamagotchi.css">
+</head>
+<body>
+    <div class="tamagotchi-container">
+        <h1>Mi Tamagotchi</h1>
+        <img id="mascota" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDg0c3FmZWxveThxdHR5cXY4aXB5dGN0eG56MWdla2ZqYWt1dTg1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fQV7RCWPzqtKgg5Xuw/giphy.gif" alt="Mascota">
+        <div class="tamagotchi">
+            <div class="status">
+                <div class="bar-container">
+                    <div id="hambre-bar" class="bar"></div>
+                    <span id="hambre-label" class="label"></span>
+                </div>
+                <div class="bar-container">
+                    <div id="felicidad-bar" class="bar"></div>
+                    <span id="felicidad-label" class="label"></span>
+                </div>
+                <div class="bar-container">
+                    <div id="sueno-bar" class="bar"></div>
+                    <span id="sueno-label" class="label"></span>
+                </div>
+            </div>
+            <div class="message" id="message"></div>
+            <div class="actions">
+                <button id="alimentar">Alimentar</button>
+                <button id="jugar">Jugar</button>
+                <button id="dormir">Dormir</button>
+            </div>
+        </div>
+    </div>
+    <script src="tamagotchi.js"></script>
+</body>
+</html>
